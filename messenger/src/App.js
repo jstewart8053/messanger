@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import HomeIcon from '@material-ui/icons/Home';
+import Sidebar from './components/Sidebar';
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
   return (
     <div className="app">
       <h1> Hello React </h1>
-
+      <Sidebar />
     </div>
   );
 }
