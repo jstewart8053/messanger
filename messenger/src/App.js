@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import HomeIcon from '@material-ui/icons/Home';
 import Sidebar from './components/Sidebar';
+import Feed from './components/Feed';
 
 function App() {
 
