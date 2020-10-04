@@ -10,10 +10,13 @@ function TweetBox() {
             <form>
                 <div className='tweetBox_input'>
                     <Avatar src="https://lh3.googleusercontent.com/proxy/-5x0q-RxiuJECLWRAxL-px34gsFhf5B-CnvHGNAxUAOdrVQjEHd3NgkxnKJZtc9GmihzuIyB2Wr1CddTrZcZZsYjZ7e7fgCOVFyAhUV4YQhXaJ7AwKCbgg" />
-                    <input placeholder="What's happening?" type="text" />
-                    <input placeholder="Enter image URL" type="text" />
+                    <input placeholder="What's happening?"
+                        type="text" />
                 </div>
-                <Button> Tweet </Button>
+                <input className='tweetBox_imageInput'
+                    placeholder="Optional: Enter image URL"
+                    type="text" />
+                <Button className="tweetBox_tweetButton"> Tweet </Button>
             </form>
         </div>
     )
