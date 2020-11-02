@@ -11,15 +11,22 @@
   border-radius: 20px;
   margin-top: 10px;
   margin-left: 20px;
+  font-size: 20px;
 }
 
 .widgets_input > input {
   border: none;
   background-color: var(--twitter-background);
+  font-size: 20px;
+  outline: none;
 }
 
 .widgets_searchIcon {
   color: gray;
+}
+
+.widgets_searchIcon:hover {
+  color: #1a91da;
 }
 
 .widgets_widgetContainer {

@@ -15,11 +15,12 @@
 }
 
 .feed {
-  flex: 0.4;
+  flex: 0.6;
   border-right: 1px solid var(--twitter-background);
   min-width: fit-content;
   overflow-y: scroll;
 }
+
 .feed-header {
   position: sticky;
   top: 0px;
